@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTP 缓存</title>
+</head>
+<body>
+  <h1>HTTP 缓存</h1>
+  <div>
+    <h2>强缓存</h2>
+    <p>
+      强缓存是利用http header中的Expires和Cache-Control两个字段来控制的。
+      强缓存中，当请求再次发出时，浏览器会根据其中的expires和Cache-Control判断目标资源是否“命中”强缓存，
+    </p>
+    <image src="./img/1.jpeg" width="100px" alt="强缓存">
+    <image src="./img/2.jpeg" width="100px" alt="cache-control">
+    <hr/>
+
+    <h2>协商缓存</h2>
+    <p>
+      协商缓存就是强制缓存失效后，浏览器携带缓存标识向服务器发起请求，由服务器根据缓存标识决定是否使用缓存的过程。
+    </p>
+    <p>Last-Modified 和 ETag</p>
+    <image src="./img/3.jpeg" width="100px" alt="协商缓存"  >
+    <image src="./img/4.jpeg" width="100px" alt="协商缓存"  >
+  </div>
+</body>
+</html>

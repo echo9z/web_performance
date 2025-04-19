@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button>测试</button>
+  <input type="测试" />
+  <script>
+    // 页面上的可交互时间，如何遇到js中的长任务，会阻塞页面的渲染，导致页面元素无法点击、输入等
+    setTimeout(() => {
+      for (let i = 0; i < 1000; i++) {
+        const p = document.createElement('p');
+        p.innerText = 'Hello World';
+        document.body.appendChild(p);
+      }
+    }, 3000);
+  </script>
+</body>
+</html>

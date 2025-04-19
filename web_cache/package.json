@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch app.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/etag": "^1.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "etag": "^1.8.1"
+  }
+}
