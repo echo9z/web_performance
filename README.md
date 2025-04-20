@@ -10,10 +10,11 @@
 
 [图片资源加载优化](./5图片资源加载优化.md)
 
-[Dev Tools使用技巧](./Chrome DevTools使用技巧.md)
+[DevTools使用技巧](./DevTools使用技巧.md)
 
 
 参考：
+
 [性能优化](https://blog.csdn.net/u012961419/category_10627707.html?spm=1001.2014.3001.5482)
 
 [前端性能优化](https://www.yuque.com/lipengzhou/web-performance?#%EF%BC%88%E5%AF%86%E7%A0%81%EF%BC%9Axa3i%EF%BC%89)
